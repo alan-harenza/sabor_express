@@ -1,3 +1,10 @@
+import alternar_estado_do_restaurante
+import cadastrar_novo_restaurante
+import listar_restaurantes
+from utils.opcao_invalida import opcao_invalida
+from utils.finalizar_app import finalizar_app
+
+
 def escolher_opcao():
     '''
     Solicita e executa a opção escolhida pelo usuário
